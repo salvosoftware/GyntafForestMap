@@ -19885,3 +19885,288 @@ Landscape
 [2023.04.14-04.36.54:934][ 53]LogFileHelpers: No new changes to save!
 [2023.04.14-04.36.54:950][ 53]AssetCheck: New page: Asset Save: DemoLevel
 [2023.04.14-04.36.54:950][ 53]LogContentValidation: Display: Validating World /Game/DemoLevelFolders/Levels/DemoLevel.DemoLevel
+[2023.04.14-04.38.36:613][495]LogNavigationDataBuild: Navigation data generation finished in /Game/DemoLevelFolders/Levels/DemoLevel.
+[2023.04.14-04.38.40:502][636]Cmd: STAT FPS
+[2023.04.14-04.38.44:656][798]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.04.14-04.38.44:656][798]PIE: New page: PIE session: DemoLevel (13 Apr 2023, 17:38:44)
+[2023.04.14-04.38.44:656][798]LogPlayLevel: Creating play world package: /Game/DemoLevelFolders/Levels/UEDPIE_0_DemoLevel
+[2023.04.14-04.38.44:933][798]LogPlayLevel: PIE: StaticDuplicateObject took: (0.275995s)
+[2023.04.14-04.38.44:933][798]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/DemoLevelFolders/Levels/DemoLevel.DemoLevel to /Game/DemoLevelFolders/Levels/UEDPIE_0_DemoLevel.DemoLevel (0.276105s)
+[2023.04.14-04.38.44:933][798]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2023.04.14-04.38.44:933][798]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.04.14-04.38.44:934][798]LogAIModule: Creating AISystem for world DemoLevel
+[2023.04.14-04.38.44:934][798]LogPlayLevel: PIE: World Init took: (0.000958s)
+[2023.04.14-04.38.44:973][798]LogUObjectHash: Compacting FUObjectHashTables data took   2.11ms
+[2023.04.14-04.38.44:978][798]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2023.04.14-04.38.44:978][798]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.04.14-04.38.44:978][798]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.04.14-04.38.44:978][798]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.04.14-04.38.44:978][798]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.04.14-04.38.44:978][798]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.04.14-04.38.44:978][798]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.04.14-04.38.44:978][798]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.04.14-04.38.44:978][798]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.04.14-04.38.44:979][798]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.04.14-04.38.44:979][798]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.04.14-04.38.44:979][798]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.04.14-04.38.44:981][798]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.04.14-04.38.45:008][798]LogAudioMixer: Display: Using Audio Hardware Device Altavoces (Realtek(R) Audio)
+[2023.04.14-04.38.45:008][798]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.04.14-04.38.45:009][798]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.04.14-04.38.45:009][798]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.04.14-04.38.45:009][798]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=13
+[2023.04.14-04.38.45:009][798]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=13
+[2023.04.14-04.38.45:011][798]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=13
+[2023.04.14-04.38.45:011][798]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=13
+[2023.04.14-04.38.45:011][798]LogInit: FAudioDevice initialized.
+[2023.04.14-04.38.45:011][798]LogAudio: Display: Audio Device (ID: 13) registered with world 'DemoLevel'.
+[2023.04.14-04.38.45:019][798]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2023.04.14-04.38.45:052][798]LogWorld: Bringing World /Game/DemoLevelFolders/Levels/UEDPIE_0_DemoLevel.DemoLevel up for play (max tick rate 0) at 2023.04.13-22.38.45
+[2023.04.14-04.38.45:052][798]LogWorld: Bringing up level for play took: 0.033441
+[2023.04.14-04.38.45:055][798]LogOnline: OSS: Created online subsystem instance for: :Context_54
+[2023.04.14-04.38.45:058][798]PIE: Server logged in
+[2023.04.14-04.38.45:059][798]PIE: Play in editor total start time 0.403 seconds.
+[2023.04.14-04.38.50:410][338]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.14-04.38.50:410][338]LogWorld: BeginTearingDown for /Game/DemoLevelFolders/Levels/UEDPIE_0_DemoLevel
+[2023.04.14-04.38.50:410][338]LogWorld: UWorld::CleanupWorld for DemoLevel, bSessionEnded=true, bCleanupResources=true
+[2023.04.14-04.38.50:414][338]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.14-04.38.50:429][338]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.04.14-04.38.50:440][338]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.14-04.38.50:485][338]LogScript: Warning: Script Msg: No world was found for object (/Game/DemoLevelFolders/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.UIWSRiver_18) passed in to UEngine::GetWorldFromContextObject().
+[2023.04.14-04.38.50:485][338]LogScript: Warning: Script Msg: No world was found for object (/Game/DemoLevelFolders/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.UIWSCustomBody_4) passed in to UEngine::GetWorldFromContextObject().
+[2023.04.14-04.38.50:485][338]LogScript: Warning: Script Msg: No world was found for object (/Game/DemoLevelFolders/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.UIWSCustomBody_3) passed in to UEngine::GetWorldFromContextObject().
+[2023.04.14-04.38.50:485][338]LogScript: Warning: Script Msg: No world was found for object (/Game/DemoLevelFolders/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.UIWSCustomBody_2) passed in to UEngine::GetWorldFromContextObject().
+[2023.04.14-04.38.50:486][338]LogScript: Warning: Script Msg: No world was found for object (/Game/DemoLevelFolders/Levels/UEDPIE_0_DemoLevel.DemoLevel:PersistentLevel.UIWSCustomBody_1) passed in to UEngine::GetWorldFromContextObject().
+[2023.04.14-04.38.50:486][338]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.04.14-04.38.50:487][338]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2023.04.14-04.38.50:488][338]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2023.04.14-04.38.50:492][338]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.14-04.38.50:513][338]LogUObjectHash: Compacting FUObjectHashTables data took   2.17ms
+[2023.04.14-04.38.50:571][339]LogPlayLevel: Display: Destroying online subsystem :Context_54
+[2023.04.14-04.39.36:645][316]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DemoLevelFolders/Levels/DemoLevel" FILE="../../../../../DemoLevelGyntaf/Content/DemoLevelFolders/Levels/DemoLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.04.14-04.39.36:682][316]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2023.04.14-04.39.37:282][316]LogSavePackage: Moving output files for package: /Game/DemoLevelFolders/Levels/DemoLevel
+[2023.04.14-04.39.37:294][316]LogSavePackage: Moving '../../../../../DemoLevelGyntaf/Saved/DemoLevel0BB453F842A1D121C461EBA8E3BDA323.tmp' to '../../../../../DemoLevelGyntaf/Content/DemoLevelFolders/Levels/DemoLevel.umap'
+[2023.04.14-04.39.37:309][316]LogFileHelpers: No new changes to save!
+[2023.04.14-04.39.37:325][316]AssetCheck: New page: Asset Save: DemoLevel
+[2023.04.14-04.39.37:326][316]LogContentValidation: Display: Validating World /Game/DemoLevelFolders/Levels/DemoLevel.DemoLevel
+[2023.04.14-04.39.37:793][336]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2023.04.14-04.39.39:301][336]LogSlate: Window 'Save Content' being destroyed
+[2023.04.14-04.39.39:387][336]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2023.04.14-04.39.39:424][336]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2023.04.14-04.39.39:429][336]LogSavePackage: Moving output files for package: /Game/DemoLevelFolders/LevelPrototyping/Materials/MI_Solid_Blue
+[2023.04.14-04.39.39:440][336]LogSavePackage: Moving '../../../../../DemoLevelGyntaf/Saved/MI_Solid_BlueD93B7E454E12ED14C16B6F940A3A1E69.tmp' to '../../../../../DemoLevelGyntaf/Content/DemoLevelFolders/LevelPrototyping/Materials/MI_Solid_Blue.uasset'
+[2023.04.14-04.39.39:467][336]AssetCheck: New page: Asset Save: MI_Solid_Blue
+[2023.04.14-04.39.39:467][336]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/DemoLevelFolders/LevelPrototyping/Materials/MI_Solid_Blue.MI_Solid_Blue
+[2023.04.14-04.39.57:744][181]LogContentBrowser: Deferred new asset file creation: SM_PinkCube1
+[2023.04.14-04.39.57:751][181]LogContentBrowser: Creating deferred item: SM_PinkCube1
+[2023.04.14-04.39.57:773][182]LogContentBrowser: Renaming the item being created (Deferred Item: SM_PinkCube1).
+[2023.04.14-04.40.02:962][444]LogContentBrowser: Attempting asset rename: SM_PinkCube1 -> SM_Buildings
+[2023.04.14-04.40.02:966][444]LogContentBrowser: End creating deferred item SM_PinkCube1
+[2023.04.14-04.40.04:362][508]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/DemoLevelFolders/LevelPrototyping/Meshes/SM_Buildings.SM_Buildings
+[2023.04.14-04.40.04:369][508]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.04.14-04.40.04:757][508]LogViewport: Scene viewport resized to 1571x1302, mode Windowed.
+[2023.04.14-04.40.06:414][622]LogAssetEditorSubsystem: Opening Asset editor for MaterialInstanceConstant /Game/DemoLevelFolders/LevelPrototyping/Materials/MI_Solid_Pink.MI_Solid_Pink
+[2023.04.14-04.40.06:416][622]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.04.14-04.40.06:566][622]LogViewport: Scene viewport resized to 1655x1302, mode Windowed.
+[2023.04.14-04.40.15:481][221]LogSlate: Window 'Color Picker' being destroyed
+[2023.04.14-04.40.16:809][304]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2023.04.14-04.40.16:851][304]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2023.04.14-04.40.16:854][304]LogSavePackage: Moving output files for package: /Game/DemoLevelFolders/LevelPrototyping/Materials/MI_Solid_Pink
+[2023.04.14-04.40.16:866][304]LogSavePackage: Moving '../../../../../DemoLevelGyntaf/Saved/MI_Solid_Pink33E8A3CC4E2F405A2EFF08AE1AC7EC1D.tmp' to '../../../../../DemoLevelGyntaf/Content/DemoLevelFolders/LevelPrototyping/Materials/MI_Solid_Pink.uasset'
+[2023.04.14-04.40.16:893][304]AssetCheck: New page: Asset Save: MI_Solid_Pink
+[2023.04.14-04.40.16:893][304]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/DemoLevelFolders/LevelPrototyping/Materials/MI_Solid_Pink.MI_Solid_Pink
+[2023.04.14-04.40.20:715][466]LogDerivedDataCache: C:/Users/Coronado/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:07.535 and deleted 0 file(s) with total size 0 MiB.
+[2023.04.14-04.40.33:618][961]LogMaterial: Display: Material /Game/DemoLevelFolders/LevelPrototyping/Materials/M_Solid.M_Solid needed to have new flag set bUsedWithStaticLighting !
+[2023.04.14-04.40.33:623][961]LogMaterial: Display: Missing cached shadermap for M_Solid in PCD3D_SM5, Default, SM5 (DDC key hash: 8433186D276D8F5945511ECF141E97CC2CC66F9D), compiling. 
+[2023.04.14-04.40.34:697][967]LogShaderCompilers: Display: ================================================
+[2023.04.14-04.40.34:698][967]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.04.14-04.40.34:698][967]LogShaderCompilers: Display: Total job queries 8190, among them cache hits 6734 (82.22%)
+[2023.04.14-04.40.34:698][967]LogShaderCompilers: Display: Tracking 1243 distinct input hashes that result in 466 distinct outputs (37.49%)
+[2023.04.14-04.40.34:698][967]LogShaderCompilers: Display: RAM used: 1.29 MB (0.00 GB) of 3276.80 MB (3.20 GB) budget. Usage: 0.04%
+[2023.04.14-04.40.34:698][967]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.04.14-04.40.34:698][967]LogShaderCompilers: Display: Shaders Compiled: 306
+[2023.04.14-04.40.34:698][967]LogShaderCompilers: Display: Jobs assigned 1285, completed 1243 (96.73%)
+[2023.04.14-04.40.34:698][967]LogShaderCompilers: Display: Average time worker was idle: 117.05 s
+[2023.04.14-04.40.34:698][967]LogShaderCompilers: Display: Time job spent in pending queue: average 0.15 s, longest 1.42 s
+[2023.04.14-04.40.34:698][967]LogShaderCompilers: Display: Job execution time: average 1.06 s, max 2.80 s
+[2023.04.14-04.40.34:698][967]LogShaderCompilers: Display: Job life time (pending + execution): average 1.21 s, max 2.80
+[2023.04.14-04.40.34:698][967]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 190.87 s
+[2023.04.14-04.40.34:698][967]LogShaderCompilers: Display: Jobs were issued in 1230 batches (only local compilation was used), average 1.04 jobs/batch
+[2023.04.14-04.40.34:698][967]LogShaderCompilers: Display: Average processing rate: 6.51 jobs/sec
+[2023.04.14-04.40.34:698][967]LogShaderCompilers: Display: Effective parallelization: 4.55 (times faster than compiling all shaders on one thread). Compare with number of workers: 12
+[2023.04.14-04.40.34:698][967]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.04.14-04.40.34:698][967]LogShaderCompilers: Display:                  TShadowDepthVSVertexShadowDepth_OutputDepth (compiled   15 times, average 1.18 sec, max 1.27 sec, min 0.99 sec)
+[2023.04.14-04.40.34:698][967]LogShaderCompilers: Display:                       TLightMapDensityVSFDummyLightMapPolicy (compiled   15 times, average 1.17 sec, max 1.26 sec, min 0.99 sec)
+[2023.04.14-04.40.34:698][967]LogShaderCompilers: Display:             TShadowDepthVSVertexShadowDepth_VirtualShadowMap (compiled   66 times, average 1.14 sec, max 1.40 sec, min 0.92 sec)
+[2023.04.14-04.40.34:698][967]LogShaderCompilers: Display:                          TLightMapDensityVSFNoLightMapPolicy (compiled   15 times, average 1.14 sec, max 1.25 sec, min 0.96 sec)
+[2023.04.14-04.40.34:699][967]LogShaderCompilers: Display:           TShadowDepthVSVertexShadowDepth_PerspectiveCorrect (compiled   15 times, average 1.09 sec, max 1.22 sec, min 0.81 sec)
+[2023.04.14-04.40.34:699][967]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.04.14-04.40.34:699][967]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 11.05% of total time (compiled  100 times, average 0.96 sec, max 1.32 sec, min 0.56 sec)
+[2023.04.14-04.40.34:699][967]LogShaderCompilers: Display:                                                 FLumenCardVS - 9.33% of total time (compiled   82 times, average 0.99 sec, max 1.33 sec, min 0.61 sec)
+[2023.04.14-04.40.34:699][967]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 9.17% of total time (compiled  100 times, average 0.80 sec, max 1.05 sec, min 0.46 sec)
+[2023.04.14-04.40.34:699][967]LogShaderCompilers: Display:             TShadowDepthVSVertexShadowDepth_VirtualShadowMap - 8.69% of total time (compiled   66 times, average 1.14 sec, max 1.40 sec, min 0.92 sec)
+[2023.04.14-04.40.34:699][967]LogShaderCompilers: Display:                                                  FHitProxyVS - 8.20% of total time (compiled   68 times, average 1.05 sec, max 1.26 sec, min 0.74 sec)
+[2023.04.14-04.40.34:699][967]LogShaderCompilers: Display: ================================================
+[2023.04.14-04.40.39:716][991]LogNavigationDataBuild: Navigation data generation finished in /Game/DemoLevelFolders/Levels/DemoLevel.
+[2023.04.14-04.41.10:529][282]LogSlate: Window 'Color Picker' being destroyed
+[2023.04.14-04.41.11:994][377]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2023.04.14-04.41.12:041][377]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2023.04.14-04.41.12:045][377]LogSavePackage: Moving output files for package: /Game/DemoLevelFolders/LevelPrototyping/Materials/MI_Solid_Pink
+[2023.04.14-04.41.12:045][377]LogSavePackage: Moving '../../../../../DemoLevelGyntaf/Saved/MI_Solid_PinkBACCEC8B4BFDF9A0421A288E2FBD1933.tmp' to '../../../../../DemoLevelGyntaf/Content/DemoLevelFolders/LevelPrototyping/Materials/MI_Solid_Pink.uasset'
+[2023.04.14-04.41.12:063][377]AssetCheck: New page: Asset Save: MI_Solid_Pink
+[2023.04.14-04.41.12:063][377]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/DemoLevelFolders/LevelPrototyping/Materials/MI_Solid_Pink.MI_Solid_Pink
+[2023.04.14-04.41.13:365][469]LogWorld: UWorld::CleanupWorld for World_54, bSessionEnded=true, bCleanupResources=true
+[2023.04.14-04.41.13:365][469]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.14-04.41.21:428][985]LogContentBrowser: Deferred new asset file creation: MI_Solid_Pink1
+[2023.04.14-04.41.21:436][985]LogContentBrowser: Creating deferred item: MI_Solid_Pink1
+[2023.04.14-04.41.21:463][986]LogContentBrowser: Renaming the item being created (Deferred Item: MI_Solid_Pink1).
+[2023.04.14-04.41.26:063][183]LogContentBrowser: Attempting asset rename: MI_Solid_Pink1 -> MI_Solid_Yellow
+[2023.04.14-04.41.26:065][183]LogContentBrowser: End creating deferred item MI_Solid_Pink1
+[2023.04.14-04.41.27:035][222]LogAssetEditorSubsystem: Opening Asset editor for MaterialInstanceConstant /Game/DemoLevelFolders/LevelPrototyping/Materials/MI_Solid_Yellow.MI_Solid_Yellow
+[2023.04.14-04.41.27:036][222]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.04.14-04.41.27:203][222]LogViewport: Scene viewport resized to 1655x1302, mode Windowed.
+[2023.04.14-04.41.33:040][609]LogSlate: Window 'Color Picker' being destroyed
+[2023.04.14-04.41.34:143][678]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2023.04.14-04.41.34:186][678]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
+[2023.04.14-04.41.34:190][678]LogSavePackage: Moving output files for package: /Game/DemoLevelFolders/LevelPrototyping/Materials/MI_Solid_Yellow
+[2023.04.14-04.41.34:190][678]LogSavePackage: Moving '../../../../../DemoLevelGyntaf/Saved/MI_Solid_Yellow1D808B03418B79235BB58A9309A3D41A.tmp' to '../../../../../DemoLevelGyntaf/Content/DemoLevelFolders/LevelPrototyping/Materials/MI_Solid_Yellow.uasset'
+[2023.04.14-04.41.34:207][678]AssetCheck: New page: Asset Save: MI_Solid_Yellow
+[2023.04.14-04.41.34:207][678]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/DemoLevelFolders/LevelPrototyping/Materials/MI_Solid_Yellow.MI_Solid_Yellow
+[2023.04.14-04.41.35:430][765]LogWorld: UWorld::CleanupWorld for World_55, bSessionEnded=true, bCleanupResources=true
+[2023.04.14-04.41.35:430][765]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.14-04.41.39:511][ 47]LogSavePackage: Moving output files for package: /Game/DemoLevelFolders/LevelPrototyping/Meshes/SM_Buildings
+[2023.04.14-04.41.39:511][ 47]LogSavePackage: Moving '../../../../../DemoLevelGyntaf/Saved/SM_Buildings69C757704A7115578E7040A6A91D42C5.tmp' to '../../../../../DemoLevelGyntaf/Content/DemoLevelFolders/LevelPrototyping/Meshes/SM_Buildings.uasset'
+[2023.04.14-04.41.39:527][ 47]AssetCheck: New page: Asset Save: SM_Buildings
+[2023.04.14-04.41.39:527][ 47]LogContentValidation: Display: Validating StaticMesh /Game/DemoLevelFolders/LevelPrototyping/Meshes/SM_Buildings.SM_Buildings
+[2023.04.14-04.41.40:919][139]LogWorld: UWorld::CleanupWorld for World_53, bSessionEnded=true, bCleanupResources=true
+[2023.04.14-04.41.40:919][139]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.14-04.41.42:853][325]LogSavePackage: Moving output files for package: /Game/DemoLevelFolders/LevelPrototyping/Meshes/SM_PinkCube
+[2023.04.14-04.41.42:854][325]LogSavePackage: Moving '../../../../../DemoLevelGyntaf/Saved/SM_PinkCube635A87304B3E7F5006F3728554CFE1DA.tmp' to '../../../../../DemoLevelGyntaf/Content/DemoLevelFolders/LevelPrototyping/Meshes/SM_PinkCube.uasset'
+[2023.04.14-04.41.42:871][325]AssetCheck: New page: Asset Save: SM_PinkCube
+[2023.04.14-04.41.42:871][325]LogContentValidation: Display: Validating StaticMesh /Game/DemoLevelFolders/LevelPrototyping/Meshes/SM_PinkCube.SM_PinkCube
+[2023.04.14-04.41.44:166][444]LogWorld: UWorld::CleanupWorld for World_52, bSessionEnded=true, bCleanupResources=true
+[2023.04.14-04.41.44:166][444]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.14-04.41.47:065][780]LogWorld: UWorld::CleanupWorld for World_50, bSessionEnded=true, bCleanupResources=true
+[2023.04.14-04.41.47:065][780]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.14-04.41.47:890][861]LogWorld: UWorld::CleanupWorld for World_49, bSessionEnded=true, bCleanupResources=true
+[2023.04.14-04.41.47:890][861]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.14-04.41.50:396][ 12]LogSlate: Window 'Message' being destroyed
+[2023.04.14-04.41.50:402][ 12]Message dialog closed, result: Yes, title: Message, text: Would you like to apply the changes of the modified material to the original material?
+/Game/DemoLevelFolders/StaticMeshes/20367_Hope_chestMat.20367_Hope_chestMat
+(Selecting 'No' will cause all changes to be lost!)
+[2023.04.14-04.41.50:880][ 12]LogMaterial: Display: Missing cached shadermap for Preview:20367_Hope_chestMat in PCD3D_SM5, Default, SM5 (DDC key hash: 379289F138C052FC54B98D1047F23F0A7D43F3F6), compiling. 
+[2023.04.14-04.41.50:905][ 12]LogMaterial: Display: Missing cached shadermap for 20367_Hope_chestMat in PCD3D_SM5, Default, SM5 (DDC key hash: B6704E78B8C775444E75AD8AC1A4D6DDE17FBAA1), compiling. 
+[2023.04.14-04.41.51:022][ 12]LogUObjectHash: Compacting FUObjectHashTables data took   2.50ms
+[2023.04.14-04.41.51:219][ 12]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2023.04.14-04.41.51:273][ 12]LogWorld: UWorld::CleanupWorld for World_39, bSessionEnded=true, bCleanupResources=true
+[2023.04.14-04.41.51:273][ 12]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.14-04.41.53:774][172]LogSlate: Window 'Message' being destroyed
+[2023.04.14-04.41.53:780][172]Message dialog closed, result: Yes, title: Message, text: Would you like to apply the changes of the modified material to the original material?
+/Game/DemoLevelFolders/BlueprintsTools/Marker/M_Text.M_Text
+(Selecting 'No' will cause all changes to be lost!)
+[2023.04.14-04.41.54:273][172]LogMaterial: Display: Missing cached shadermap for Preview:M_Text in PCD3D_SM5, Default, SM5 (DDC key hash: 7263C4156E993BAF2BCF1758CD726EFE68DF6105), compiling. 
+[2023.04.14-04.41.54:304][172]LogMaterial: Display: Missing cached shadermap for M_Text in PCD3D_SM5, Default, SM5 (DDC key hash: DF4B205801FB6BC3BF5E24548B24E8179E0AD67F), compiling. 
+[2023.04.14-04.41.54:461][172]LogUObjectHash: Compacting FUObjectHashTables data took   2.08ms
+[2023.04.14-04.41.54:648][172]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2023.04.14-04.41.54:706][172]LogWorld: UWorld::CleanupWorld for World_35, bSessionEnded=true, bCleanupResources=true
+[2023.04.14-04.41.54:706][172]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.14-04.41.56:650][245]LogSlate: Window 'Message' being destroyed
+[2023.04.14-04.41.56:657][245]Message dialog closed, result: Yes, title: Message, text: Would you like to apply the changes of the modified material to the original material?
+/Game/DemoLevelFolders/BlueprintsTools/Marker/M_ColorMarker.M_ColorMarker
+(Selecting 'No' will cause all changes to be lost!)
+[2023.04.14-04.41.57:135][245]LogMaterial: Display: Missing cached shadermap for Preview:M_ColorMarker in PCD3D_SM5, Default, SM5 (DDC key hash: A30EF856381B3C6E4359755985CF0B16511C6E88), compiling. 
+[2023.04.14-04.41.57:164][245]LogMaterial: Display: Missing cached shadermap for M_ColorMarker in PCD3D_SM5, Default, SM5 (DDC key hash: DDBAD854F2BD515BF5E8694FA40E2B874A83CA09), compiling. 
+[2023.04.14-04.41.57:300][245]LogUObjectHash: Compacting FUObjectHashTables data took   2.11ms
+[2023.04.14-04.41.57:494][245]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2023.04.14-04.41.57:551][245]LogWorld: UWorld::CleanupWorld for World_33, bSessionEnded=true, bCleanupResources=true
+[2023.04.14-04.41.57:551][245]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.14-04.41.58:409][332]BlueprintLog: New page: Compile BP_Marker
+[2023.04.14-04.41.58:472][332]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2023.04.14-04.41.58:538][333]LogNavigationDataBuild: Navigation data generation finished in /Game/DemoLevelFolders/Levels/DemoLevel.
+[2023.04.14-04.42.00:208][455]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DemoLevelFolders/Levels/DemoLevel" FILE="../../../../../DemoLevelGyntaf/Content/DemoLevelFolders/Levels/DemoLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.04.14-04.42.00:246][455]LogUObjectHash: Compacting FUObjectHashTables data took   2.28ms
+[2023.04.14-04.42.00:859][455]LogSavePackage: Moving output files for package: /Game/DemoLevelFolders/Levels/DemoLevel
+[2023.04.14-04.42.00:871][455]LogSavePackage: Moving '../../../../../DemoLevelGyntaf/Saved/DemoLevel384D33F047E39BCEDFF9BFAB32BB254B.tmp' to '../../../../../DemoLevelGyntaf/Content/DemoLevelFolders/Levels/DemoLevel.umap'
+[2023.04.14-04.42.00:908][455]LogFileHelpers: No new changes to save!
+[2023.04.14-04.42.00:924][455]AssetCheck: New page: Asset Save: DemoLevel
+[2023.04.14-04.42.00:924][455]LogContentValidation: Display: Validating World /Game/DemoLevelFolders/Levels/DemoLevel.DemoLevel
+[2023.04.14-04.42.13:488][305]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DemoLevelFolders/Levels/DemoLevel" FILE="../../../../../DemoLevelGyntaf/Content/DemoLevelFolders/Levels/DemoLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.04.14-04.42.13:523][305]LogUObjectHash: Compacting FUObjectHashTables data took   1.98ms
+[2023.04.14-04.42.14:139][305]LogSavePackage: Moving output files for package: /Game/DemoLevelFolders/Levels/DemoLevel
+[2023.04.14-04.42.14:151][305]LogSavePackage: Moving '../../../../../DemoLevelGyntaf/Saved/DemoLevelB07DC81D4114E7D22C8DFCA8534A593D.tmp' to '../../../../../DemoLevelGyntaf/Content/DemoLevelFolders/Levels/DemoLevel.umap'
+[2023.04.14-04.42.14:177][305]LogFileHelpers: No new changes to save!
+[2023.04.14-04.42.14:204][305]AssetCheck: New page: Asset Save: DemoLevel
+[2023.04.14-04.42.14:204][305]LogContentValidation: Display: Validating World /Game/DemoLevelFolders/Levels/DemoLevel.DemoLevel
+[2023.04.14-04.42.14:722][313]LogNavigationDataBuild: Navigation data generation finished in /Game/DemoLevelFolders/Levels/DemoLevel.
+[2023.04.14-04.42.22:802][802]LogMaterial: Display: Material /Game/FirstPerson/LevelPrototyping/Materials/M_Solid.M_Solid needed to have new flag set bUsedWithStaticLighting !
+[2023.04.14-04.42.22:807][802]LogMaterial: Display: Missing cached shadermap for M_Solid in PCD3D_SM5, Default, SM5 (DDC key hash: AA130E4914DE47A406D42ED8460530B64516A4C1), compiling. 
+[2023.04.14-04.42.25:035][833]LogNavigationDataBuild: Navigation data generation finished in /Game/DemoLevelFolders/Levels/DemoLevel.
+[2023.04.14-04.42.29:511][ 80]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DemoLevelFolders/Levels/DemoLevel" FILE="../../../../../DemoLevelGyntaf/Content/DemoLevelFolders/Levels/DemoLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.04.14-04.42.29:548][ 80]LogUObjectHash: Compacting FUObjectHashTables data took   2.30ms
+[2023.04.14-04.42.30:294][ 80]LogSavePackage: Moving output files for package: /Game/DemoLevelFolders/Levels/DemoLevel
+[2023.04.14-04.42.30:306][ 80]LogSavePackage: Moving '../../../../../DemoLevelGyntaf/Saved/DemoLevel0CAD44314916001EF753D489C463A682.tmp' to '../../../../../DemoLevelGyntaf/Content/DemoLevelFolders/Levels/DemoLevel.umap'
+[2023.04.14-04.42.30:324][ 80]LogFileHelpers: No new changes to save!
+[2023.04.14-04.42.30:346][ 80]AssetCheck: New page: Asset Save: DemoLevel
+[2023.04.14-04.42.30:346][ 80]LogContentValidation: Display: Validating World /Game/DemoLevelFolders/Levels/DemoLevel.DemoLevel
+[2023.04.14-05.23.44:011][934]LogViewport: Scene viewport resized to 1338x525, mode Windowed.
+[2023.04.14-05.24.04:330][225]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DemoLevelFolders/Levels/DemoLevel" FILE="../../../../../DemoLevelGyntaf/Content/DemoLevelFolders/Levels/DemoLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.04.14-05.24.04:367][225]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2023.04.14-05.24.04:961][225]LogSavePackage: Moving output files for package: /Game/DemoLevelFolders/Levels/DemoLevel
+[2023.04.14-05.24.04:972][225]LogSavePackage: Moving '../../../../../DemoLevelGyntaf/Saved/DemoLevelE2CAEB0645D038405384B3BE0C2773EA.tmp' to '../../../../../DemoLevelGyntaf/Content/DemoLevelFolders/Levels/DemoLevel.umap'
+[2023.04.14-05.24.04:990][225]LogFileHelpers: No new changes to save!
+[2023.04.14-05.24.05:025][225]AssetCheck: New page: Asset Save: DemoLevel
+[2023.04.14-05.24.05:025][225]LogContentValidation: Display: Validating World /Game/DemoLevelFolders/Levels/DemoLevel.DemoLevel
+[2023.04.14-05.24.06:444][305]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2023.04.14-05.24.07:799][305]LogSlate: Window 'Save Content' being destroyed
+[2023.04.14-05.24.07:851][305]LogShaderCompilers: Display: ================================================
+[2023.04.14-05.24.07:851][305]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.04.14-05.24.07:851][305]LogShaderCompilers: Display: Total job queries 8301, among them cache hits 6845 (82.46%)
+[2023.04.14-05.24.07:851][305]LogShaderCompilers: Display: Tracking 1308 distinct input hashes that result in 489 distinct outputs (37.39%)
+[2023.04.14-05.24.07:851][305]LogShaderCompilers: Display: RAM used: 1.35 MB (0.00 GB) of 3276.80 MB (3.20 GB) budget. Usage: 0.04%
+[2023.04.14-05.24.07:851][305]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.04.14-05.24.07:851][305]LogShaderCompilers: Display: Shaders Compiled: 350
+[2023.04.14-05.24.07:851][305]LogShaderCompilers: Display: Jobs assigned 1308, completed 1308 (100.00%)
+[2023.04.14-05.24.07:851][305]LogShaderCompilers: Display: Average time worker was idle: 115.44 s
+[2023.04.14-05.24.07:851][305]LogShaderCompilers: Display: Time job spent in pending queue: average 0.20 s, longest 5.36 s
+[2023.04.14-05.24.07:851][305]LogShaderCompilers: Display: Job execution time: average 1.23 s, max 6.93 s
+[2023.04.14-05.24.07:851][305]LogShaderCompilers: Display: Job life time (pending + execution): average 1.42 s, max 6.99
+[2023.04.14-05.24.07:851][305]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 197.08 s
+[2023.04.14-05.24.07:851][305]LogShaderCompilers: Display: Jobs were issued in 1247 batches (only local compilation was used), average 1.05 jobs/batch
+[2023.04.14-05.24.07:851][305]LogShaderCompilers: Display: Average processing rate: 6.64 jobs/sec
+[2023.04.14-05.24.07:851][305]LogShaderCompilers: Display: Effective parallelization: 4.76 (times faster than compiling all shaders on one thread). Compare with number of workers: 12
+[2023.04.14-05.24.07:851][305]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.04.14-05.24.07:851][305]LogShaderCompilers: Display:                  TShadowDepthVSVertexShadowDepth_OutputDepth (compiled   15 times, average 1.18 sec, max 1.27 sec, min 0.99 sec)
+[2023.04.14-05.24.07:851][305]LogShaderCompilers: Display:                       TLightMapDensityVSFDummyLightMapPolicy (compiled   15 times, average 1.17 sec, max 1.26 sec, min 0.99 sec)
+[2023.04.14-05.24.07:851][305]LogShaderCompilers: Display:             TShadowDepthVSVertexShadowDepth_VirtualShadowMap (compiled   66 times, average 1.14 sec, max 1.40 sec, min 0.92 sec)
+[2023.04.14-05.24.07:851][305]LogShaderCompilers: Display:                          TLightMapDensityVSFNoLightMapPolicy (compiled   15 times, average 1.14 sec, max 1.25 sec, min 0.96 sec)
+[2023.04.14-05.24.07:851][305]LogShaderCompilers: Display:  TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQSkylight (compiled    3 times, average 1.10 sec, max 1.18 sec, min 0.94 sec)
+[2023.04.14-05.24.07:851][305]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.04.14-05.24.07:851][305]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 10.56% of total time (compiled  103 times, average 0.96 sec, max 1.32 sec, min 0.56 sec)
+[2023.04.14-05.24.07:851][305]LogShaderCompilers: Display:                                                 FLumenCardVS - 9.01% of total time (compiled   85 times, average 0.99 sec, max 1.33 sec, min 0.61 sec)
+[2023.04.14-05.24.07:851][305]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 8.84% of total time (compiled  103 times, average 0.81 sec, max 1.17 sec, min 0.46 sec)
+[2023.04.14-05.24.07:851][305]LogShaderCompilers: Display:             TShadowDepthVSVertexShadowDepth_VirtualShadowMap - 8.04% of total time (compiled   66 times, average 1.14 sec, max 1.40 sec, min 0.92 sec)
+[2023.04.14-05.24.07:851][305]LogShaderCompilers: Display:                                                  FHitProxyVS - 7.60% of total time (compiled   68 times, average 1.05 sec, max 1.26 sec, min 0.74 sec)
+[2023.04.14-05.24.07:851][305]LogShaderCompilers: Display: ================================================
+[2023.04.14-05.24.07:881][305]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DemoLevelFolders/StaticMeshes/20367_Hope_chestMat" FILE="../../../../../DemoLevelGyntaf/Content/DemoLevelFolders/StaticMeshes/20367_Hope_chestMat.uasset" SILENT=true
+[2023.04.14-05.24.07:882][305]LogSavePackage: Moving output files for package: /Game/DemoLevelFolders/StaticMeshes/20367_Hope_chestMat
+[2023.04.14-05.24.07:894][305]LogSavePackage: Moving '../../../../../DemoLevelGyntaf/Saved/20367_Hope_chestMat25AE84604D1E83647146D5A8DF53E2AE.tmp' to '../../../../../DemoLevelGyntaf/Content/DemoLevelFolders/StaticMeshes/20367_Hope_chestMat.uasset'
+[2023.04.14-05.24.07:964][305]LogSavePackage: Moving output files for package: /Game/DemoLevelFolders/BlueprintsTools/Marker/M_ColorMarker
+[2023.04.14-05.24.07:965][305]LogSavePackage: Moving '../../../../../DemoLevelGyntaf/Saved/M_ColorMarkerACDF50F24E31FAEF49F0169337ED62CB.tmp' to '../../../../../DemoLevelGyntaf/Content/DemoLevelFolders/BlueprintsTools/Marker/M_ColorMarker.uasset'
+[2023.04.14-05.24.07:983][305]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPerson/LevelPrototyping/Materials/M_Solid" FILE="../../../../../DemoLevelGyntaf/Content/FirstPerson/LevelPrototyping/Materials/M_Solid.uasset" SILENT=true
+[2023.04.14-05.24.07:986][305]LogSavePackage: Moving output files for package: /Game/FirstPerson/LevelPrototyping/Materials/M_Solid
+[2023.04.14-05.24.07:997][305]LogSavePackage: Moving '../../../../../DemoLevelGyntaf/Saved/M_Solid12E551BD494A15DB80694C97DB7D4DF4.tmp' to '../../../../../DemoLevelGyntaf/Content/FirstPerson/LevelPrototyping/Materials/M_Solid.uasset'
+[2023.04.14-05.24.08:007][305]LogSavePackage: Moving output files for package: /Game/DemoLevelFolders/LevelPrototyping/Materials/M_Solid
+[2023.04.14-05.24.08:019][305]LogSavePackage: Moving '../../../../../DemoLevelGyntaf/Saved/M_SolidA54FD69C4A9FE7344BFC4A9E6887B9F1.tmp' to '../../../../../DemoLevelGyntaf/Content/DemoLevelFolders/LevelPrototyping/Materials/M_Solid.uasset'
+[2023.04.14-05.24.08:074][305]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DemoLevelFolders/BlueprintsTools/Marker/M_Text" FILE="../../../../../DemoLevelGyntaf/Content/DemoLevelFolders/BlueprintsTools/Marker/M_Text.uasset" SILENT=true
+[2023.04.14-05.24.08:077][305]LogSavePackage: Moving output files for package: /Game/DemoLevelFolders/BlueprintsTools/Marker/M_Text
+[2023.04.14-05.24.08:078][305]LogSavePackage: Moving '../../../../../DemoLevelGyntaf/Saved/M_TextB08E13424CE9206EE1D413BF176229A7.tmp' to '../../../../../DemoLevelGyntaf/Content/DemoLevelFolders/BlueprintsTools/Marker/M_Text.uasset'
+[2023.04.14-05.24.08:090][305]LogSavePackage: Moving output files for package: /Game/FirstPerson/LevelPrototyping/Materials/MI_Solid_Blue
+[2023.04.14-05.24.08:091][305]LogSavePackage: Moving '../../../../../DemoLevelGyntaf/Saved/MI_Solid_Blue8053B4534236C4C37E5C00A6F582B7D1.tmp' to '../../../../../DemoLevelGyntaf/Content/FirstPerson/LevelPrototyping/Materials/MI_Solid_Blue.uasset'
+[2023.04.14-05.24.08:122][305]AssetCheck: New page: Asset Save: multiple assets
+[2023.04.14-05.24.08:122][305]LogContentValidation: Display: Validating Material /Game/DemoLevelFolders/LevelPrototyping/Materials/M_Solid.M_Solid
+[2023.04.14-05.24.08:122][305]LogContentValidation: Display: Validating Material /Game/DemoLevelFolders/BlueprintsTools/Marker/M_ColorMarker.M_ColorMarker
+[2023.04.14-05.24.08:122][305]LogContentValidation: Display: Validating Material /Game/DemoLevelFolders/BlueprintsTools/Marker/M_Text.M_Text
+[2023.04.14-05.24.08:122][305]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/FirstPerson/LevelPrototyping/Materials/MI_Solid_Blue.MI_Solid_Blue
+[2023.04.14-05.24.08:122][305]LogContentValidation: Display: Validating Material /Game/FirstPerson/LevelPrototyping/Materials/M_Solid.M_Solid
+[2023.04.14-05.24.08:122][305]LogContentValidation: Display: Validating Material /Game/DemoLevelFolders/StaticMeshes/20367_Hope_chestMat.20367_Hope_chestMat
