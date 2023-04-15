@@ -1,19 +1,3 @@
-{
-	"name": "Default bindings for Vive Tracker (Camera)",
-	"controller_type": "vive_tracker_camera",
-	"last_edited_by": "UnrealEngine",
-	"bindings":
-	{
-		"/actions/main":
-		{
-			"poses": [
-				{
-					"output": "/actions/main/in/tracker_camera",
-					"path": "/user/camera/pose/raw",
-					"requirement": "optional"
-				}
-			]
-		}
-	},
-	"description": "GyntafDemoLevel-20979098"
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:7fe48a33fe3e1e6a5a38210e4df1ad65a26fd1078e6ff53b630b9534c2efc3b3
+size 376

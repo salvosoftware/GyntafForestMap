@@ -1,19 +1,3 @@
-{
-	"name": "Default bindings for Vive Tracker (Right Knee)",
-	"controller_type": "vive_tracker_right_knee",
-	"last_edited_by": "UnrealEngine",
-	"bindings":
-	{
-		"/actions/main":
-		{
-			"poses": [
-				{
-					"output": "/actions/main/in/tracker_knee_right",
-					"path": "/user/knee/right/pose/raw",
-					"requirement": "optional"
-				}
-			]
-		}
-	},
-	"description": "GyntafDemoLevel-20979098"
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:4b5cdc22251c379ee26dc9687273648c9b38d698716b8a94dfe20c4f8025c78b
+size 392
