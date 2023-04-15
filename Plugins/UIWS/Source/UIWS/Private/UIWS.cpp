@@ -1,21 +1,3 @@
-// Copyright 2018 Elliot Gray. All Rights Reserved.
-
-#include "UIWS.h"
-
-#define LOCTEXT_NAMESPACE "FUIWSModule"
-
-void FUIWSModule::StartupModule()
-{
-	// This code will execute after your module is loaded into memory; the exact timing is specified in the .uplugin file per-module
-
-}
-
-void FUIWSModule::ShutdownModule()
-{
-	// This function may be called during shutdown to clean up your module.  For modules that support dynamic reloading,
-	// we call this function before unloading the module.
-}
-
-#undef LOCTEXT_NAMESPACE
-	
-IMPLEMENT_MODULE(FUIWSModule, UIWS)
+version https://git-lfs.github.com/spec/v1
+oid sha256:00f48bec7ee14d2e0a1d71e7a72a922b026f065c26e76e18534bdd255a00d95e
+size 558

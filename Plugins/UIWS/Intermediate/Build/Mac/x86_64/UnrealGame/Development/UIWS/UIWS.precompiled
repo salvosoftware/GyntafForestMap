@@ -1,6 +1,3 @@
-{
-	"OutputFiles": [
-		"Module.UIWS.cpp.o",
-		"Module.UIWS.gen.cpp.o"
-	]
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:03d90adccb57ddcdbcfa1f8f55cb31ccb97ef5c5d4920e1824256ca40f5bb071
+size 73

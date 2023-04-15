@@ -1,7 +1,3 @@
-{
-	"BuildId": "19505902",
-	"Modules": 
-	{
-		"UIWS": "UnrealEditor-UIWS.dylib"
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:b4522b93f0abb3df6884cdabb08387a023b18c6d766ed03789f817c6b8fbe2eb
+size 82
