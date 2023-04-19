@@ -1,0 +1,7 @@
+2023/04/18-23:48:44.839 9194 Reusing MANIFEST D:/DemoLevelGyntaf/Saved/webcache_4147\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/04/18-23:48:44.839 9194 Recovering log #3
+2023/04/18-23:48:44.840 9194 Reusing old log D:/DemoLevelGyntaf/Saved/webcache_4147\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb/000003.log 
+2023/04/18-23:49:23.369 819c Level-0 table #5: started
+2023/04/18-23:49:23.573 819c Level-0 table #5: 18968 bytes OK
+2023/04/18-23:49:23.635 819c Delete type=0 #3
+2023/04/18-23:49:23.636 819c Manual compaction at level-0 from (begin) .. (end); will stop at (end)
